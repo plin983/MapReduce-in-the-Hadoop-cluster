@@ -22,7 +22,7 @@ for line in sys.stdin:
     # assign first value of the list to the ticker
     ticker = line[1]
     
-    # assign first value of the list to the ticker
+    # assign second value of the list to the ticker
     tradeDate = line[2]
 
     # assign the 7th value to the volumn
