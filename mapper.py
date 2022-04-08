@@ -20,15 +20,11 @@ for line in sys.stdin:
     line = line.split(",")
 
     # assign first value of the list to the ticker
-    #ticker = line[0]
     ticker = line[1]
     
     # assign first value of the list to the ticker
-    #ticker = line[0]
     tradeDate = line[2]
 
-    # assign the third value to the trade price
-    #tradePrice = line[2]
     # assign the 7th value to the volumn
     tradeVolumn = line[7]
     
